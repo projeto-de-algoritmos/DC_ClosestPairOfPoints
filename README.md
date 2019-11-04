@@ -1,6 +1,6 @@
 # Par de Pontos Mais Próximos
 
-**Número da Lista**: Lista 4
+**Número da Lista**: Lista 4<br>
 **Conteúdo da Disciplina**: Dividir e Conquistar - Par de Pontos Mais Próximos
 
 ## Alunos
@@ -10,7 +10,7 @@
 | 17/0024121  |  Welison Lucas Almeida Regis |
 
 ## Sobre 
-O projeto é a visualização de um algoritmo de dividir e conquistar para encontrar o par de pontos mais próximos.
+O projeto é a visualização de um algoritmo de dividir e conquistar para encontrar o par de pontos mais próximos.<br>
 [algoritmo base](https://www.geeksforgeeks.org/closest-pair-of-points-using-divide-and-conquer-algorithm/)
 
 ## Screenshots
