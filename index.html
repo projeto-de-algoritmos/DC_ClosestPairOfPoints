@@ -1,0 +1,36 @@
+<head>
+	<script src="https://cdn.bootcss.com/d3/4.13.0/d3.js"></script>
+	<link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row pt-3">
+			<div class="col-8">
+				<svg width="600px" height="600px" style="border: 1px solid; float:right"></svg>
+			</div>
+			<div class="col-4">
+				<div class="row">
+					<div class="card" style="width: 18rem;">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<strong>Closest Points</strong>
+								<span class="float-right">
+									<button onclick="restart()">
+										<img src="refresh.svg" width="20px" title="restart">
+									</button>
+									<button onclick="startTimer()">
+										<img src="play.svg" width="20px" title="resume">
+									</button>
+								</span>   
+							</li>
+							<li class="list-group-item text-center" id="distance">distance: </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="main.js"></script>
+</body>
